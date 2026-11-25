@@ -19,6 +19,9 @@ class Point:
         """
 
         self.move(x, y)
+    
+    def __repr__(self) -> str:
+        return f"Point({self.x},{self.y})"
 
     def move(self, x: float, y: float) -> None:
         """
