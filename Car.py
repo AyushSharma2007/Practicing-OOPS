@@ -161,7 +161,7 @@ class Car:
             self.fuel = 0.0
             delta_x, delta_y = (
                 stop_pos.x - self.position.x,
-                stop_pos.y - self.position.y,
+                stop_pos.y - self.position.y,       
             )
             new_x, new_y = self.position.x + (delta_x * ratio), self.position.y + (
                 delta_y * ratio
